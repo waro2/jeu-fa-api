@@ -125,7 +125,7 @@ class Settings(BaseSettings):
   
     
     ADMIN_API_KEY: str = Field(
-        default="changeme",
+        default="changeme_admin_key_16",  # valeur par défaut corrigée
         env="ADMIN_API_KEY",
         min_length=16
     )
